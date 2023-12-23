@@ -9,6 +9,7 @@ body{
 .container{
     max-width: 600px;
     margin: 100px auto;
+    /* height: 100vh; */
     padding: 20px 5px;
     background: linear-gradient(to left, #3466d1,#FF1493);
     border-radius: 10px;
@@ -17,6 +18,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 @keyframes fadeIn {
@@ -30,4 +32,98 @@ body{
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.header{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.row-head{
+    margin-top: 1px;
+    padding-bottom: 3px;
+    /* margin-bottom: 10px; */
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    transition: transform 2.0 ease;
+}
+
+.row:hover{
+    transform: scale(1.05);
+}
+
+img{
+    margin-right: 10px;
+}
+
+input[type="number"]{
+
+    padding: 2px;
+    width: 180px;
+    border-radius: 2px;
+    border: 1px solid #ccc;         
+    font-weight: 100;
+    flex:1;
+}
+
+input[type="number"]:focus{
+    border-color: #ff7ef5;
+    outline: none;
+    box-shadow: 0 0 2px #ff7e5f;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cash-text{
+    margin-left: 10px;
+    color: #fff;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+button{
+    margin-top: 7px;
+    padding: 10px 20px;
+    background-color: #ff7e5f;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    transition: transform 0.2 ease;
+    align-self: flex-end;
+
+}
+
+button:hover{
+    background-color: #ff6c4a;
+    cursor: pointer;
+}
+
+#finalresult{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
+
+#finalresultinwords{
+    font-style: italic;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.row-result{
+    display: flex;
+    flex-direction: column;
 }
