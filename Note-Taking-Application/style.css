@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to  right, rgb(242,112,156), rgb(255,148,114));
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+
+#addBtn{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    border: 0;
+    background-color: rgb(8, 164, 8);
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+#addBtn:hover{
+    background-color: rgb(13, 186, 13);
+}
+
+.note{
+    background: transparent;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+
+.tool{
+    background-color: #222831;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    /* gap: 0.2rem; */
+}
+
+.tool i{
+    padding: 5px;
+    cursor: pointer;
+    background: color 0.3s ease;
+}
+
+.tool i:hover{
+    color: #aca1a1;
+}
+
+.note textarea{
+    width: 300px;
+    border: none;
+    min-height: 220px;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    background-color: #393e46;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.note textarea:hover{
+    background-color: #293e46;
+}
+
+.note textarea:focus{
+    outline: none;
+}
