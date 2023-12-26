@@ -40,16 +40,26 @@ body{
     margin: 15px;
     border-radius: 10px;
     overflow: hidden;
-    /* background-color: aqua; */
 }
 
-.tool{
+
+.tool {
     background-color: #222831;
     color: white;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between; /* Align items at the start and end */
     padding: 5px;
-    /* gap: 0.2rem; */
+    align-items: flex-start; /* Align items vertically at the start */
+}
+
+.tool > span {
+    margin-right: auto; /* Push the span to the left */
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+.tool > i:not(:first-child) {
+    margin-left: 1px; /* Add spacing between icons */
 }
 
 .tool i{
