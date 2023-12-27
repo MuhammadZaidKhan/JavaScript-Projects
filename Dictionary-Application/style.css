@@ -8,7 +8,7 @@ body{
 
 .container{
     max-width: 600px;
-    margin: 200px auto;
+    margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -69,7 +69,7 @@ button:hover{
 }
 
 .resultContainer{
-    /* display: none; */
+    display: none;
     background-color: #fff;
     padding: 20px;
     border-radius: 4px;
