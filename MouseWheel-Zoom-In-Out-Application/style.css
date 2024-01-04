@@ -8,9 +8,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
+    text-align: center;
     min-height: 90vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(242, 112, 156);
     position: fixed;
+    width: 100%;
 }
