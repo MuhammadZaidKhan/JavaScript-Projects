@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    max-width: 500px;
+    background-color: #ff0000;
+    margin: 10px auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+.row{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.row div{
+    margin-top: 20px;
+}
+
+.label{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: large;
+}
+
